@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    list-style: none;
+ }
+ 
+ 
+ /* ESTILIZAÇÃO DO FUNDO */
+ body {
+     background-color: rgb(92, 92, 186);
+     align-items: center;
+ }
+ 
+ 
+ 
+ 
+ body > .form-users {
+        text-align: center;
+        margin-top: 70px;
+ }
+ 
+ body > h1 {
+       text-align: center;
+       margin-top: 40px;
+       font-size: 60px;
+ }
+ 
+ 
+ 
+ body > h2 {
+     text-align: center;
+     font-size: 40px;
+ }
+ 
+ 
+ /* FIM DA ESTILIZAÇÃO DO BACKGROUND */
+ 
+ 
+ 
+ 
+ 
+ 
+ /* ESTILIZAÇÃO DO FORMULÁRIO */
+ 
+ 
+ .form-users > input{
+          width: 200PX;
+          height: 20PX;
+          border-radius: 5PX;
+          background-color: rgb(143, 146, 146);
+          color: white;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ .form-users > input::placeholder {
+              color: white;
+ }
+ 
+ 
+ 
+ 
+ 
+ .form-users > label {
+         font-size: 25PX;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+         ;
+ }
+ 
+ 
+ 
+ 
+ 
+ #DDD {
+      background-color: rgb(144, 149, 150);
+      color: white;
+      border-radius: 5px;
+ }
+ 
+ 
+ /* ESTILIZAÇÃO DO BOTÃO */
+ 
+ .button-box > :hover {
+          color: rgb(134, 134, 129);
+          transition: 1.2s;
+ }
+ 
+ 
+ 
+ 
+ .button-box > input {
+        width: 200px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(57, 56, 58);
+        font-size: 17px;
+        color: white;
+ }
